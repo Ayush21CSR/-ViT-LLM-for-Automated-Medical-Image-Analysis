@@ -45,7 +45,7 @@ Our best model (Technique 3) achieved state-of-the-art performance:
 
 | Model | METEOR | ROUGE-1 | ROUGE-L | BLEU-1 | BLEU-4 |
 |-------|--------|---------|---------|---------|---------|
-| **Proposed Technique 3** | **0.2605** | **0.3890** | **0.3565** | **0.2991** | **0.0874** |
+| **Proposed Technique 3** | **0.2690** | **0.3380** | **0.3565** | **0.2991** | **0.0874** |
 | Proposed Technique 2 | 0.218 | 0.346 | 0.324 | 0.269 | 0.078 |
 | Proposed Technique 1 | 0.182 | 0.317 | 0.294 | 0.239 | 0.056 |
 | CDGPT2 | 0.164 | 0.289 | — | 0.387 | 0.111 |
