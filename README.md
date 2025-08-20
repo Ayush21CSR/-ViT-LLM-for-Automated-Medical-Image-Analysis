@@ -2,18 +2,18 @@
 
 A Vision-Language Framework for Chest X-ray Report Generation
 
-## 🏥 Overview
+##  Overview
 
 This project presents an innovative ViT-LLM framework that combines Vision Transformers (ViT) with Large Language Models (LLMs) to automatically generate diagnostic reports from chest X-ray images. The system addresses the critical shortage of radiologists, particularly in rural areas, by providing automated, reliable X-ray interpretation solutions.
 
-## 🎯 Motivation
+##  Motivation
 
 - **Critical Healthcare Gap**: 65% of specialist doctor positions in Indian government health facilities remain unfilled
 - **Rural Healthcare Crisis**: 70% shortfall in specialist doctors at rural Community Health Centres (CHCs)
 - **Growing Demand**: Exponential growth in imaging data causing diagnostic backlogs
 - **Manual Limitations**: Time-consuming report generation prone to inter-observer variability
 
-## 🔬 Key Features
+##  Key Features
 
 - **Multi-Modal Architecture**: Integration of Vision Transformers for image analysis and LLMs for report generation
 - **Multi-View Processing**: Supports multiple X-ray views per report (up to 5 images)
@@ -21,7 +21,7 @@ This project presents an innovative ViT-LLM framework that combines Vision Trans
 - **Self-Attention Fusion**: Captures inter-image dependencies and relationships
 - **Progressive Learning**: Three distinct techniques with increasing complexity
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Three Progressive Techniques:
 
@@ -34,12 +34,12 @@ This project presents an innovative ViT-LLM framework that combines Vision Trans
    - Self-attention fusion module
    - Pretrained BART decoder
 
-3. **Technique 3**: Fine-Tuned ViT and BART with Domain Adaptation ⭐
+3. **Technique 3**: Fine-Tuned ViT and BART with Domain Adaptation 
    - ViT fine-tuned on RSNA Pneumonia Dataset
    - BART fine-tuned on radiology-specific text
    - Multi-image input with self-attention fusion
 
-## 📊 Performance Results
+##  Performance Results
 
 Our best model (Technique 3) achieved state-of-the-art performance:
 
@@ -51,7 +51,7 @@ Our best model (Technique 3) achieved state-of-the-art performance:
 | CDGPT2 | 0.164 | 0.289 | — | 0.387 | 0.111 |
 | TrMRG | 0.218 | 0.387 | — | 0.532 | 0.158 |
 
-## 📚 Dataset
+##  Dataset
 
 ### Training Data Sources:
 - **Indiana univesity chest x-ray Dataset**: for final model
@@ -66,7 +66,7 @@ Our best model (Technique 3) achieved state-of-the-art performance:
 - Multiple view alignment for multi-image models
 
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - PyTorch 1.12+
@@ -78,7 +78,7 @@ Our best model (Technique 3) achieved state-of-the-art performance:
 - matplotlib
 
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 The model is evaluated using standard NLG metrics:
 
@@ -94,26 +94,15 @@ The model is evaluated using standard NLG metrics:
 - **Active Learning Implementation**: Improve model performance through selective data annotation
 
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## ⚖️ License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
+##  Authors
 
 - **Ayush Kumar Singh** - *Lead Developer* - [GitHub Profile](https://github.com/ayushkumarsingh)
 - **Dr. Rusha Patra** - *Supervisor* - Indian Institute of Information Technology, Guwahati
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Indian Institute of Information Technology, Guwahati
+- Indiana univesity chest x-ray Dataset
 - RSNA for the Pneumonia Dataset
 - Open-source contributors to PyTorch and Transformers libraries
 - Medical professionals who provided expert annotations
@@ -124,6 +113,3 @@ For questions and support:
 - Email: ayush.kumar.singh@iiitg.ac.in
 - Institution: Indian Institute of Information Technology, Guwahati
 
----
-
-**Disclaimer**: This tool is designed to assist medical professionals and should not be used as a substitute for professional medical diagnosis. Always consult qualified healthcare providers for medical decisions.
