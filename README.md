@@ -65,37 +65,6 @@ Our best model (Technique 3) achieved state-of-the-art performance:
 - Data augmentation techniques
 - Multiple view alignment for multi-image models
 
-## 🔧 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/vit-llm-medical-analysis.git
-cd vit-llm-medical-analysis
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## 🚀 Quick Start
-
-```python
-from vit_llm_medical import ViTLLMModel
-
-# Initialize the model
-model = ViTLLMModel(
-    technique=3,  # Use best performing technique
-    model_path="path/to/pretrained/model"
-)
-
-# Generate report from chest X-ray(s)
-images = ["path/to/xray1.jpg", "path/to/xray2.jpg"]
-report = model.generate_report(images)
-print(report)
-```
 
 ## 📋 Requirements
 
@@ -108,34 +77,6 @@ print(report)
 - scikit-learn
 - matplotlib
 
-## 🎯 Usage Examples
-
-### Single Image Analysis
-```python
-# Analyze single chest X-ray
-model = ViTLLMModel(technique=1)
-report = model.generate_report("single_xray.jpg")
-```
-
-### Multi-Image Analysis
-```python
-# Analyze multiple views
-model = ViTLLMModel(technique=3)
-images = ["frontal_view.jpg", "lateral_view.jpg", "pa_view.jpg"]
-comprehensive_report = model.generate_report(images)
-```
-
-### Custom Fine-tuning
-```python
-# Fine-tune on custom dataset
-model = ViTLLMModel(technique=3)
-model.fine_tune(
-    image_dir="path/to/images",
-    report_dir="path/to/reports",
-    epochs=50,
-    learning_rate=1e-4
-)
-```
 
 ## 📈 Evaluation Metrics
 
