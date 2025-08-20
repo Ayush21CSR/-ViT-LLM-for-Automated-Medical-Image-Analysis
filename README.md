@@ -93,18 +93,6 @@ The model is evaluated using standard NLG metrics:
 - **Expert-in-the-Loop Feedback**: Continuous learning from radiologist feedback
 - **Active Learning Implementation**: Improve model performance through selective data annotation
 
-## 📄 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{singh2025vit,
-  title={ViT-LLM for Automated Medical Image Analysis: A Vision-Language Framework for Chest X-ray Report Generation},
-  author={Singh, Ayush Kumar and Patra, Rusha},
-  institution={Indian Institute of Information Technology, Guwahati},
-  year={2025}
-}
-```
 
 ## 🤝 Contributing
 
