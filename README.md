@@ -54,6 +54,7 @@ Our best model (Technique 3) achieved state-of-the-art performance:
 ## 📚 Dataset
 
 ### Training Data Sources:
+- **Indiana univesity chest x-ray Dataset**: for final model
 - **RSNA Pneumonia Processed Dataset**: For ViT encoder fine-tuning
 - **Radiology-Specific Text Corpus**: From open-access clinical repositories
 - **Kaggle Radiology Datasets**: Publicly available chest X-ray reports
