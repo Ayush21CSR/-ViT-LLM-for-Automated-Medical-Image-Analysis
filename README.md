@@ -107,9 +107,3 @@ The model is evaluated using standard NLG metrics:
 - Open-source contributors to PyTorch and Transformers libraries
 - Medical professionals who provided expert annotations
 
-## 📞 Contact
-
-For questions and support:
-- Email: ayush.kumar.singh@iiitg.ac.in
-- Institution: Indian Institute of Information Technology, Guwahati
-
