@@ -94,10 +94,6 @@ The model is evaluated using standard NLG metrics:
 - **Active Learning Implementation**: Improve model performance through selective data annotation
 
 
-##  Authors
-
-- **Ayush Kumar Singh** - *Lead Developer* - [GitHub Profile](https://github.com/ayushkumarsingh)
-- **Dr. Rusha Patra** - *Supervisor* - Indian Institute of Information Technology, Guwahati
 
 ##  Acknowledgments
 
