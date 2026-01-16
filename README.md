@@ -97,7 +97,6 @@ The model is evaluated using standard NLG metrics:
 
 ##  Acknowledgments
 
-- Indian Institute of Information Technology, Guwahati
 - Indiana univesity chest x-ray Dataset
 - RSNA for the Pneumonia Dataset
 - Open-source contributors to PyTorch and Transformers libraries
